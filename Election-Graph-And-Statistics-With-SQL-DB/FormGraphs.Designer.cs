@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ChartElection = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.LblSocietyB = new System.Windows.Forms.Label();
+            this.LblSocietyD = new System.Windows.Forms.Label();
+            this.LblSocietyC = new System.Windows.Forms.Label();
+            this.LblSocietyE = new System.Windows.Forms.Label();
+            this.LblSocietyA = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.PbSocietyE = new System.Windows.Forms.ProgressBar();
             this.label5 = new System.Windows.Forms.Label();
@@ -66,33 +66,33 @@
             this.groupBox1.Size = new System.Drawing.Size(754, 325);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Graphs";
+            this.groupBox1.Text = "General Result";
             // 
             // ChartElection
             // 
-            chartArea1.Name = "ChartArea1";
-            this.ChartElection.ChartAreas.Add(chartArea1);
+            chartArea5.Name = "ChartArea1";
+            this.ChartElection.ChartAreas.Add(chartArea5);
             this.ChartElection.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.ChartElection.Legends.Add(legend1);
+            legend5.Name = "Legend1";
+            this.ChartElection.Legends.Add(legend5);
             this.ChartElection.Location = new System.Drawing.Point(4, 22);
             this.ChartElection.Margin = new System.Windows.Forms.Padding(4);
             this.ChartElection.Name = "ChartElection";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Society";
-            this.ChartElection.Series.Add(series1);
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Society";
+            this.ChartElection.Series.Add(series5);
             this.ChartElection.Size = new System.Drawing.Size(746, 299);
             this.ChartElection.TabIndex = 0;
             this.ChartElection.Text = "chart1";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.LblSocietyB);
+            this.groupBox2.Controls.Add(this.LblSocietyD);
+            this.groupBox2.Controls.Add(this.LblSocietyC);
+            this.groupBox2.Controls.Add(this.LblSocietyE);
+            this.groupBox2.Controls.Add(this.LblSocietyA);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.PbSocietyE);
             this.groupBox2.Controls.Add(this.label5);
@@ -114,60 +114,61 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "City Results";
             // 
-            // label11
+            // LblSocietyB
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(678, 122);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(19, 21);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "0";
+            this.LblSocietyB.AutoSize = true;
+            this.LblSocietyB.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblSocietyB.Location = new System.Drawing.Point(190, 122);
+            this.LblSocietyB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSocietyB.Name = "LblSocietyB";
+            this.LblSocietyB.Size = new System.Drawing.Size(19, 21);
+            this.LblSocietyB.TabIndex = 16;
+            this.LblSocietyB.Text = "0";
             // 
-            // label10
+            // LblSocietyD
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(678, 198);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(19, 21);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "0";
+            this.LblSocietyD.AutoSize = true;
+            this.LblSocietyD.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblSocietyD.Location = new System.Drawing.Point(190, 198);
+            this.LblSocietyD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSocietyD.Name = "LblSocietyD";
+            this.LblSocietyD.Size = new System.Drawing.Size(19, 21);
+            this.LblSocietyD.TabIndex = 15;
+            this.LblSocietyD.Text = "0";
             // 
-            // label9
+            // LblSocietyC
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(678, 160);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(19, 21);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "0";
+            this.LblSocietyC.AutoSize = true;
+            this.LblSocietyC.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblSocietyC.Location = new System.Drawing.Point(190, 160);
+            this.LblSocietyC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSocietyC.Name = "LblSocietyC";
+            this.LblSocietyC.Size = new System.Drawing.Size(19, 21);
+            this.LblSocietyC.TabIndex = 14;
+            this.LblSocietyC.Text = "0";
             // 
-            // label8
+            // LblSocietyE
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(678, 236);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(19, 21);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "0";
+            this.LblSocietyE.AutoSize = true;
+            this.LblSocietyE.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblSocietyE.Location = new System.Drawing.Point(190, 236);
+            this.LblSocietyE.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSocietyE.Name = "LblSocietyE";
+            this.LblSocietyE.Size = new System.Drawing.Size(19, 21);
+            this.LblSocietyE.TabIndex = 13;
+            this.LblSocietyE.Text = "0";
             // 
-            // label7
+            // LblSocietyA
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(678, 84);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(19, 21);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "0";
+            this.LblSocietyA.AutoSize = true;
+            this.LblSocietyA.BackColor = System.Drawing.Color.Transparent;
+            this.LblSocietyA.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblSocietyA.Location = new System.Drawing.Point(190, 84);
+            this.LblSocietyA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSocietyA.Name = "LblSocietyA";
+            this.LblSocietyA.Size = new System.Drawing.Size(19, 21);
+            this.LblSocietyA.TabIndex = 12;
+            this.LblSocietyA.Text = "0";
             // 
             // label6
             // 
@@ -182,7 +183,7 @@
             // 
             // PbSocietyE
             // 
-            this.PbSocietyE.Location = new System.Drawing.Point(198, 231);
+            this.PbSocietyE.Location = new System.Drawing.Point(229, 231);
             this.PbSocietyE.Margin = new System.Windows.Forms.Padding(4);
             this.PbSocietyE.Maximum = 200;
             this.PbSocietyE.Name = "PbSocietyE";
@@ -202,7 +203,7 @@
             // 
             // PbSocietyD
             // 
-            this.PbSocietyD.Location = new System.Drawing.Point(198, 193);
+            this.PbSocietyD.Location = new System.Drawing.Point(229, 193);
             this.PbSocietyD.Margin = new System.Windows.Forms.Padding(4);
             this.PbSocietyD.Maximum = 200;
             this.PbSocietyD.Name = "PbSocietyD";
@@ -222,7 +223,7 @@
             // 
             // PbSocietyC
             // 
-            this.PbSocietyC.Location = new System.Drawing.Point(198, 155);
+            this.PbSocietyC.Location = new System.Drawing.Point(229, 155);
             this.PbSocietyC.Margin = new System.Windows.Forms.Padding(4);
             this.PbSocietyC.Maximum = 200;
             this.PbSocietyC.Name = "PbSocietyC";
@@ -242,7 +243,7 @@
             // 
             // PbSocietyB
             // 
-            this.PbSocietyB.Location = new System.Drawing.Point(198, 117);
+            this.PbSocietyB.Location = new System.Drawing.Point(229, 117);
             this.PbSocietyB.Margin = new System.Windows.Forms.Padding(4);
             this.PbSocietyB.Maximum = 200;
             this.PbSocietyB.Name = "PbSocietyB";
@@ -263,17 +264,18 @@
             // CbxCity
             // 
             this.CbxCity.FormattingEnabled = true;
-            this.CbxCity.Location = new System.Drawing.Point(198, 36);
+            this.CbxCity.Location = new System.Drawing.Point(229, 36);
             this.CbxCity.Margin = new System.Windows.Forms.Padding(4);
             this.CbxCity.Name = "CbxCity";
             this.CbxCity.Size = new System.Drawing.Size(160, 25);
             this.CbxCity.TabIndex = 2;
+            this.CbxCity.SelectedIndexChanged += new System.EventHandler(this.CbxCity_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(141, 36);
+            this.label1.Location = new System.Drawing.Point(167, 36);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 21);
@@ -282,7 +284,7 @@
             // 
             // PbSocietyA
             // 
-            this.PbSocietyA.Location = new System.Drawing.Point(198, 79);
+            this.PbSocietyA.Location = new System.Drawing.Point(229, 79);
             this.PbSocietyA.Margin = new System.Windows.Forms.Padding(4);
             this.PbSocietyA.Maximum = 200;
             this.PbSocietyA.Name = "PbSocietyA";
@@ -302,6 +304,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormGraphs";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Graphs";
             this.Load += new System.EventHandler(this.FormGraphs_Load);
             this.groupBox1.ResumeLayout(false);
@@ -329,10 +332,10 @@
         private System.Windows.Forms.ProgressBar PbSocietyC;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ProgressBar PbSocietyB;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label LblSocietyB;
+        private System.Windows.Forms.Label LblSocietyD;
+        private System.Windows.Forms.Label LblSocietyC;
+        private System.Windows.Forms.Label LblSocietyE;
+        private System.Windows.Forms.Label LblSocietyA;
     }
 }

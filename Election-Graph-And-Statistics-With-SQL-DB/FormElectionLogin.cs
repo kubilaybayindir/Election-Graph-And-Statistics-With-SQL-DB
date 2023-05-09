@@ -61,29 +61,17 @@ namespace Election_Graph_And_Statistics_With_SQL_DB
         private void Form1_Load(object sender, EventArgs e)
         {
             GetCitiesToCbx(sqlConnection,CbxCities);
-            //sqlConnection.Open();
-            //SqlCommand sqlCommand = new SqlCommand("SELECT * FROM Cities", sqlConnection);
-            //SqlDataReader dr = sqlCommand.ExecuteReader();
-            //if (sqlCommand.Connection.State == ConnectionState.Open)
-            //{
-            //    while (dr.Read())
-            //    {
-            //        CbxCities.DisplayMember=dr[0].ToString();
-            //        CbxCities.ValueMember=dr[1].ToString();
-            //        CbxCities.Items.Add(dr[1].ToString());
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("","",MessageBoxButtons.OK,MessageBoxIcon.Error);
-            //}
-            //sqlConnection.Close();
         }
 
         private void BtGraphs_Click(object sender, EventArgs e)
         {
             FormGraphs formGraphs = new FormGraphs();
             formGraphs.Show();
+        }
+
+        private void BtExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

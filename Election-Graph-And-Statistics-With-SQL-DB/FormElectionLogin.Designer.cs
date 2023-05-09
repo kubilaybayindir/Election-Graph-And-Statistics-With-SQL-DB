@@ -165,6 +165,7 @@
             this.BtExit.TabIndex = 13;
             this.BtExit.Text = "EXİT";
             this.BtExit.UseVisualStyleBackColor = true;
+            this.BtExit.Click += new System.EventHandler(this.BtExit_Click);
             // 
             // CbxCities
             // 
@@ -200,6 +201,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormElectionLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
