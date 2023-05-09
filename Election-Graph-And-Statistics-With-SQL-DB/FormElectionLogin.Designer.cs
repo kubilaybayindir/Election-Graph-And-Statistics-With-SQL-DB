@@ -1,6 +1,6 @@
 ﻿namespace Election_Graph_And_Statistics_With_SQL_DB
 {
-    partial class Form1
+    partial class FormElectionLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -154,6 +154,7 @@
             this.BtGraphs.TabIndex = 14;
             this.BtGraphs.Text = "GRAPHS";
             this.BtGraphs.UseVisualStyleBackColor = true;
+            this.BtGraphs.Click += new System.EventHandler(this.BtGraphs_Click);
             // 
             // BtExit
             // 
@@ -173,7 +174,7 @@
             this.CbxCities.Size = new System.Drawing.Size(190, 25);
             this.CbxCities.TabIndex = 15;
             // 
-            // Form1
+            // FormElectionLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -195,10 +196,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FormElectionLogin";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
